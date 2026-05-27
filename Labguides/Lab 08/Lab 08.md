@@ -19,7 +19,19 @@ Copilot Studio, configure it with proper instructions and suggested
 prompts, and integrate the Dataverse MCP Server for live data
 connectivity
 
-1.  Open a browser and navigate to Copilot Studio using the url saved in Lab 2 (+++https://copilotstudio.microsoft.com/environments/< Environment ID >+++ and login using your credentials if not done already.
+1. Open a browser and navigate to +++https://admin.powerplatform.microsoft.com/+++. Select **Manage** from the left pane and then select the **Tenant Settings** option.
+
+2. Select **Manage** -> **Environments** -> **User1** environment. 
+
+3. Select **Settings** from the top menu bar.
+
+4. Select **Product** -> **Features**. 
+
+5. Scroll down to the **Dataverse Model Context Protocol** section and select the checkbox against **Allow MCP clients to interact with Dataverse MCP Server (Preview version)** and select **Save**.
+
+    ![](./media/image43.png)
+   
+1.  Open a browser and navigate to Copilot Studio using the url +++https://copilotstudio.microsoft.com+++ and login using your credentials if not done already.
 
     ![](./media/image1.png)
 
