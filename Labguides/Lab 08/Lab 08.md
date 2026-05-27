@@ -31,20 +31,20 @@ connectivity
 
     ![](./media/image43.png)
    
-1.  Open a browser and navigate to Copilot Studio using the url +++https://copilotstudio.microsoft.com+++ and login using your credentials if not done already.
+1.  Back in the Copilot Studio, select Home page.
 
     ![](./media/image1.png)
 
-2.  Select **Create an agent** tile to create a new agent.
+3.  Select **Create an agent** tile to create a new agent.
 
     ![](./media/image2.png)
 
-3.  Once the agent is provisioned, select Edit against the **Details**
+4.  Once the agent is provisioned, select Edit against the **Details**
     pane.
 
     ![](./media/image3.png)
 
-4.  Enter the below details and select **Save**.
+5.  Enter the below details and select **Save**.
 
     - Name - +++Zava Agent+++
     
@@ -52,7 +52,7 @@ connectivity
 
     ![](./media/image4.png)
 
-5.  **Edit** Instructions and enter the below set of instructions and
+6.  **Edit** Instructions and enter the below set of instructions and
     select **Save**.
 
     ```
@@ -69,7 +69,7 @@ connectivity
     
     ![](./media/image6.png)
 
-6.  Select **+ Add knowledge** to add a knowledge source. Browse and choose **Account data.xlsx** from C:\LabFiles and seelct **Add to agent**.
+7.  Select **+ Add knowledge** to add a knowledge source. Browse and choose **Account data.xlsx** from C:\LabFiles and seelct **Add to agent**.
 
     ![](./media/image33.png)
 
