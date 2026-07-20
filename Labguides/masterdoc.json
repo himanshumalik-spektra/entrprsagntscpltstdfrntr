@@ -3,20 +3,24 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2001/Lab%201.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/getting-started-page-day1.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2004/Lab%2004.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2001/Lab%201.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2005/Lab%2005.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2004/Lab%2004.md",
       "Order": 3
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2007/Lab%2007.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2005/Lab%2005.md",
       "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Lab%2007/Lab%2007.md",
+      "Order": 5
     }
   ]
 } 
