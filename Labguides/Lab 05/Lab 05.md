@@ -131,10 +131,14 @@ The Interview Prep Agent works better as a connected agent because:
 Let's add our first child agent to your existing Hiring Agent.
 
 ### Task 1 - Solution setup
-    
-1. Select the **ellipsis** **(...)** below **Tools** (in +++https://copilotstudio.microsoft.com+++) in the left hand navigation.
 
-1. Select **Solutions**.
+1. Navigate to Copilot studio using the URL 
+
+     ```
+     https://copilotstudio.microsoft.com
+     ```
+
+1. Select the **ellipsis** **(...)** below **Tools** and then Select **Solutions**.
 
     ![](./media/image2.png)
 
@@ -354,15 +358,37 @@ existing) without depending on user interaction.
 
 1. Select the **Overview** tab, Select **Edit** on the **Details** panel. Fill in the name and description as shown below and select **Save**
 
-    -  **Flow name**:+++Resume Upload+++
+    -  **Flow name**: **Resume Upload**
 
-    -  **Description**:+++Uploads a Resume when instructed+++
+    -  **Description**: **Uploads a Resume when instructed**
 
     ![](./media/image36.png)
 
 1. Select the **Designer** tab again and select **Test**.
 
     ![](./media/a12.png)
+
+1. Confirm **Manually** is selected under **Test Flow**, then click **Save & Test**.
+
+    ![](./media/a13.png)
+
+1. Configure the following and Then click **Run flow (4)**.
+
+   | Field | Value |
+   |---|---|
+   | Resume | **AVERY EXAMPLE (FICTITIOUS...) (1)** — click **Import** |
+   | Message | **Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match**. **(2)**" |
+   | UserEmail | ****Email/Username:** <inject key="AzureAdUserEmail"></inject>(3)** |
+
+    ![](./media/a14.png)
+
+1. Confirm the **Your flow run successfully started** message appears, then click **Done**.
+
+    ![](./media/a15.png)
+
+1. If the **Create Resume** step failed with an **Unauthorized** error in the flow run. Follow the below steps other wise skip 
+
+    ![](./media/a16.png)
 
 1. Navigate to Power apps platform using the URL and sign-in with your credentials 
 
@@ -411,10 +437,14 @@ existing) without depending on user interaction.
    | Field | Value |
    |---|---|
    | Resume | **AVERY EXAMPLE (FICTITIOUS...) (1)** — click **Import** |
-   | Message | "Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match. **(2)**" |
+   | Message | **Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match**. **(2)**" |
    | UserEmail | ****Email/Username:** <inject key="AzureAdUserEmail"></inject>(3)** |
 
     ![](./media/a11.png)
+
+1. Navigate back to copilot studio and publish the agent . Select the **Designer** tab again and select **Publish**.
+
+    ![](./media/image37.png)
 
 ### Task 5 - Connect the flow to your agent
 
