@@ -46,7 +46,7 @@ subject line filtering.
 
     ![](./media/image3.png)
 
-1. Enter the Name as +++Portfolio Lookup Agent+++ and select Save to rename the default name of the agent.
+1. Enter the Name as **Portfolio Lookup Agent** and select Save to rename the default name of the agent.
 
     ![](./media/image4.png)
 

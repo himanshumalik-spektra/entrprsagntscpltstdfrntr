@@ -360,9 +360,61 @@ existing) without depending on user interaction.
 
     ![](./media/image36.png)
 
-1. Select the **Designer** tab again and select **Publish**.
+1. Select the **Designer** tab again and select **Test**.
 
-    ![](./media/image37.png)
+    ![](./media/a12.png)
+
+1. Navigate to Power apps platform using the URL and sign-in with your credentials 
+
+     ```
+     https://make.powerapps.com/
+     ```
+
+1. Click the **Environment** selector, then select the **DevOne-** environment.
+
+    ![](./media/a1.png)
+
+1. Click **More (1)** in the left navigation menu, then select **Connections (2)**.
+
+    ![](./media/a2.png)
+
+1. Click the **... (1)** menu next to the connection, then select **Delete (2)** , reapeat this step for all the connections , to delete all previous connections
+
+    ![](./media/a3.png)
+
+1. Confirm the **No connections** message appears, verifying all connections have been successfully deleted.
+
+    ![](./media/a5.png)
+
+1. On the **flows** tab, click the **Resume Upload** flow.
+
+    ![](./media/a6.png)
+
+1. Click **Edit** to open the **Resume Upload** flow.
+
+    ![](./media/a7.png)
+
+1. Click on **Continue**.
+
+    ![](./media/a8.png)
+
+1. Review the flow steps, confirming **Skills**, **Add a new row**, **Upload Resume File**, and **Respond to the agent** are all present, then click **Test**.
+
+    ![](./media/a9.png)
+
+1. Confirm **Manually** is selected under **Test Flow**, then click **Save & Test**.
+
+    ![](./media/a10.png)
+
+1. Configure the following and Then click **Run flow (4)**.
+
+   | Field | Value |
+   |---|---|
+   | Resume | **AVERY EXAMPLE (FICTITIOUS...) (1)** — click **Import** |
+   | Message | "Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match. **(2)**" |
+   | UserEmail | ****Email/Username:** <inject key="AzureAdUserEmail"></inject>(3)** |
+
+    ![](./media/a11.png)
 
 ### Task 5 - Connect the flow to your agent
 
